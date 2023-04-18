@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(160, 168, 168);
+}
+.nav{
+    height: 7vh;
+    width: 100%;
+    background-color:rgb(84, 81, 81);
+}
+.nav ul{
+    text-align: center;
+    padding-top: 0.8rem;
+}
+.nav ul li{
+    display: inline;
+    color: aliceblue;
+    margin-right: 2rem;
+}
+a{
+    text-decoration: none;
+}
+.row1{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+}
+.colum1{
+    height: 70vh;
+    width: 50%;
+}
+.colum1 video{
+    height: 465px;
+    width: 760px;
+    
+    
+} 
+.colum2{
+    height: 100%;
+    width: 50%;
+    
+    
+}
+.row2{
+    height: 46%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}
+.pic1{
+    height: 90%;
+    width: 48%;
+    
+}
+ img{
+    height: 202px;
+    width: 363px;
+    
+}
+.pic2{
+    height: 90%;
+    width: 48%;
+}
+.row3{
+    height: 46%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pic3{
+    height: 90%;
+    width: 48%;
+}
+.pic4{
+    height: 90%;
+    width: 48%;
+    
+}
+.content{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(84, 81, 81);
+    color: aliceblue;
+    
+}
+.container2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(160, 168, 168);;
+}
+.mapcon{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+.map{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    height: 72%;
+    width: 40%;
+    background-color: black;
+}
+.map img {
+    width: 100%;
+    height: 250px;
+}
+.content1{
+height: 72%;
+margin-top: 1rem;
+width: 40%;
+margin-left: 5rem;
+line-height: 1.5rem;
+}
+.content1 p:hover{
+    color: red;
+    cursor: pointer;
+    font-weight: 5px;
+    
+}
+
+.similarplaces{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(84, 81, 81);
+}
+.places{
+    width: 90%;
+    margin-top: 2rem;
+    height: 50%;
+    width: fit-content;
+}
+
+ .star-1{
+    color: goldenrod;
+    font-size: x-large;
+    
+ }
+.star-2{
+   font-size: x-large;
+}
+/* .header{
+    height: 10px;
+    width: 10%;
+    
+} */
+ h1{
+   margin-left: 100px;
+}
+.footer{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(35, 33, 33);
+}
+#para{
+    color: white;
+    text-align: center;
+    padding:40px;
+}
+.nav ul li:hover{
+    color: brown;
+}
